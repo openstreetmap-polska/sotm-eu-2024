@@ -12,16 +12,12 @@ on:
 jobs:
   nodejs-build:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version: [18.x] # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20
       - uses: actions/cache@v3 # https://nextjs.org/docs/advanced-features/ci-build-caching#github-actions
         with:
           path: |
