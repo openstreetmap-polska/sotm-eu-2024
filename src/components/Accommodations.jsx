@@ -36,10 +36,7 @@ export function Accommodations({ id }) {
 					<p className="text-center">
 						Discounted accommodations for State of the Map Europe 2023
 					</p>
-					<ul
-						role="list"
-						className="mx-auto max-w-4xl divide-y divide-gray-100 text-base text-sotm-blue"
-					>
+					<ul className="mx-auto max-w-4xl divide-y divide-gray-100 text-base text-sotm-blue">
 						{accommodations.map((accommodation) => (
 							<li
 								key={accommodation.name}

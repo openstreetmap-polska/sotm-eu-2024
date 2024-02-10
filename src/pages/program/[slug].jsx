@@ -46,7 +46,7 @@ export async function getStaticProps({ params }) {
 }
 
 export const getStaticPaths = async () => {
-	const paths = Object.keys(descriptiveTable).map((slug) => "/program/" + slug);
+	const paths = Object.keys(descriptiveTable).map((slug) => `/program/${slug}`);
 
 	return {
 		paths,

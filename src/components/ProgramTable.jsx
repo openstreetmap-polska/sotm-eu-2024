@@ -55,7 +55,7 @@ export const BlueCell = ({ title }) => (
 );
 
 export const EmptyCell = ({ rowSpan = 1 }) => (
-	<td rowSpan={rowSpan} className="border border-gray-200"></td>
+	<td rowSpan={rowSpan} className="border border-gray-200" />
 );
 
 export const TableHeader = ({ day, date, hasScientificTrack = false }) => (
