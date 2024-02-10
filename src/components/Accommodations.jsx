@@ -51,9 +51,9 @@ export function Accommodations({ id }) {
 										<p className="font-semibold leading-6">
 											{accommodation.name}
 										</p>
-										<p className="mt-2 leading-5">
+										<div className="mt-2 leading-5">
 											<address>{accommodation.address}</address>
-										</p>
+										</div>
 										<p className="flex leading-5">{accommodation.phone}</p>
 									</Link>
 									<p className="mt-2">
@@ -66,11 +66,9 @@ export function Accommodations({ id }) {
 								<div className="flex items-center justify-between gap-x-4 sm:w-1/2 sm:flex-none">
 									<div>
 										<p className="leading-6">Discount:</p>
-										<p className="mt-1 whitespace-pre-line leading-5">
-											<ReactMarkdown>
-												{accommodation.discount}
-											</ReactMarkdown>
-										</p>
+										<div className="mt-1 whitespace-pre-line leading-5">
+											<ReactMarkdown>{accommodation.discount}</ReactMarkdown>
+										</div>
 									</div>
 								</div>
 							</li>
