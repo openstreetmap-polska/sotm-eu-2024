@@ -801,23 +801,22 @@ export const descriptiveTable = {
 		time: "12:30 - 13:00",
 		place: "Vasco Da Gama",
 	},
-	"social-technical-and-political-transformations-in-openstreetmap-from-volunteered-geographic-information-to-embedding-digital-commons-in-platform-capitalism":
-		{
-			name: "Susanne Schröder-Bergen",
-			title:
-				"Social, technical and political transformations in OpenStreetMap- From volunteered geographic information to embedding digital commons in platform capitalism",
-			details: [
-				{
-					description:
-						"OpenStreetMap has undergone many changes since its beginnings. Coming from social and digital geography, this contribution focuses on the social, technical, and political changes within the project over the past few years. As OpenStreetMap grows, new challenges emerge for the project, the data, and the community as a whole. One of those challenges arises from the growing role of institutional/commercial actors. When understood as a digital commons, OpenStreetMap is characterized as relatively resilient and independent of other interested parties, allowing the project to continue to assert itself as an alternative in the larger context of the geospatial data industry.",
-					authors:
-						"Susanne Schröder-Bergen; Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany",
-				},
-			],
-			date: "11/12/2023",
-			time: "14:00 - 14:30",
-			place: "Vasco Da Gama",
-		},
+	"social-technical-and-political-transformations-in-openstreetmap": {
+		name: "Susanne Schröder-Bergen",
+		title:
+			"Social, technical and political transformations in OpenStreetMap- From volunteered geographic information to embedding digital commons in platform capitalism",
+		details: [
+			{
+				description:
+					"OpenStreetMap has undergone many changes since its beginnings. Coming from social and digital geography, this contribution focuses on the social, technical, and political changes within the project over the past few years. As OpenStreetMap grows, new challenges emerge for the project, the data, and the community as a whole. One of those challenges arises from the growing role of institutional/commercial actors. When understood as a digital commons, OpenStreetMap is characterized as relatively resilient and independent of other interested parties, allowing the project to continue to assert itself as an alternative in the larger context of the geospatial data industry.",
+				authors:
+					"Susanne Schröder-Bergen; Friedrich-Alexander-Universtität, Erlangen-Nürnberg, Germany",
+			},
+		],
+		date: "11/12/2023",
+		time: "14:00 - 14:30",
+		place: "Vasco Da Gama",
+	},
 	"a-global-and-dynamic-completeness-assessment-of-the-openstreetmap-buildings":
 		{
 			name: "Laurens Oostwegel",
