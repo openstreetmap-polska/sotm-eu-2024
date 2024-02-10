@@ -63,7 +63,7 @@ export function ProgramDetail({
 								});
 
 							return (
-								<div key={index}>
+								<div key={description}>
 									<div
 										className="font-poppins"
 										// biome-ignore lint/security/noDangerouslySetInnerHtml: data has HTML with e.g. links

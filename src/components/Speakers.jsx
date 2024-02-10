@@ -248,7 +248,7 @@ export function Speakers() {
 								unmount={false}
 							>
 								{day.speakers.map((speaker, speakerIndex) => (
-									<div key={speakerIndex}>
+									<div key={speaker.name}>
 										<div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
 											<div
 												className={clsx(
