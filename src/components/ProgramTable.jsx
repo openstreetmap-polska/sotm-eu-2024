@@ -20,13 +20,15 @@ export const YellowCell = ({
 			<Link href={link}>
 				<div className="text-xs font-bold">{suptitle}</div>
 				<div className="font-bold">{title}</div>
-				<div dangerouslySetInnerHTML={{ __html: text }}></div>
+				{/* biome-ignore lint/security/noDangerouslySetInnerHtml: data has HTML with e.g. links */}
+				<div dangerouslySetInnerHTML={{ __html: text }} />
 			</Link>
 		) : (
 			<>
 				<div className="text-xs font-bold">{suptitle}</div>
 				<div className="font-bold">{title}</div>
-				<div dangerouslySetInnerHTML={{ __html: text }}></div>
+				{/* biome-ignore lint/security/noDangerouslySetInnerHtml: data has HTML with e.g. links */}
+				<div dangerouslySetInnerHTML={{ __html: text }} />
 			</>
 		)}
 	</td>

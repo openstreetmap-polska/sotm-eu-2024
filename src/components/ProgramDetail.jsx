@@ -66,6 +66,7 @@ export function ProgramDetail({
 								<div key={index}>
 									<div
 										className="font-poppins"
+										// biome-ignore lint/security/noDangerouslySetInnerHtml: data has HTML with e.g. links
 										dangerouslySetInnerHTML={{ __html: formattedDescription }}
 									/>
 									<p className="font-poppins text-sotm-blue">{authors}</p>
