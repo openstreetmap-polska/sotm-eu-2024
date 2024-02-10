@@ -6,6 +6,11 @@ It's a website of State of the Map Europe 2024 conference which will be held in 
 2. Run dev server: `npm run dev`
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
+## Lefthook
+It's recommended to use [lefthook](https://github.com/evilmartians/lefthook)
+After installing lefthook use `lefthook install` to configure it.
+Formatter and linter will run before git commit.
+
 ## License
 
 This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
