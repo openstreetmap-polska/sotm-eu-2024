@@ -2,7 +2,7 @@
 It's a website of State of the Map Europe 2024 conference which will be held in Łódź, Poland.
 
 ## Development
-1. Install dependencies: `npm install`
+1. Install dependencies: `npm install` or `bun install --no-save`
 2. Run dev server: `npm run dev`
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
