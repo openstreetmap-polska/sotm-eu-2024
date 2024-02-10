@@ -1,4 +1,3 @@
-import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import Logo from "@/images/logos/SOTM_Blue_full_logo_black.png";
 import Image from "next/image";
