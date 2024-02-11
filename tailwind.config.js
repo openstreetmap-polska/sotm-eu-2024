@@ -48,6 +48,7 @@ module.exports = {
 			fontFamily: {
 				dunbar: ["DunbarText"],
 				poppins: ["Poppins"],
+				rubik: ["Rubik"],
 			},
 			maxWidth: {
 				"2xl": "40rem",

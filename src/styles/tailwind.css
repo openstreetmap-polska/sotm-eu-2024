@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: 'Rubik';
+  src: url('../../public/fonts/Rubik/Rubik-VariableFont_wght.ttf');
+  font-weight: 300 900;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'DunbarText';
   src: url('../../public/fonts/Dunbar/DunbarLow-Regular.eot');
   src:
