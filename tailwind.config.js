@@ -24,6 +24,9 @@ module.exports = {
 				"yellow-200": "#FAF57D",
 				"blue-500": "#4D64C4",
 			},
+			orange: "#FF4102",
+			darkOrange: "#B22D00",
+			beige: "#4F1B0940",
 		},
 		fontSize: {
 			xs: ["0.75rem", { lineHeight: "1rem" }],
@@ -52,6 +55,9 @@ module.exports = {
 			},
 			maxWidth: {
 				"2xl": "40rem",
+			},
+			flexBasis: {
+				"1/7": "14.2857143%",
 			},
 		},
 	},
