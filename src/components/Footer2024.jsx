@@ -4,8 +4,8 @@ import { Container } from "@/components/Container";
 
 export function Footer2024() {
 	return (
-		<footer className="my-0 py-0">
-			<Container>
+		<footer className="my-0 py-0 mt-12">
+			<Container className="border-t-2 border-black">
 				<div className="flex flex-col lg:items-center justify-between md:flex-row font-rubik text-lg">
 					<div className="flex flex-col">
 						<p className="text-black md:mt-0">

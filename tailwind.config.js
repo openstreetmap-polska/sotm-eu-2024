@@ -26,7 +26,7 @@ module.exports = {
 			},
 			orange: "#FF4102",
 			darkOrange: "#B22D00",
-			beige: "#4F1B0940",
+			beige: "#F2EAE4",
 		},
 		fontSize: {
 			xs: ["0.75rem", { lineHeight: "1rem" }],
