@@ -4,11 +4,11 @@ import { Container } from "@/components/Container";
 
 export function Footer2024() {
 	return (
-		<footer className="py-16">
+		<footer className="my-0 py-0">
 			<Container>
-				<div className="flex flex-col items-center justify-between md:flex-row font-rubik text-lg">
+				<div className="flex flex-col lg:items-center justify-between md:flex-row font-rubik text-lg">
 					<div className="flex flex-col">
-						<p className="mt-6 text-black md:mt-0">
+						<p className="text-black md:mt-0">
 							&copy; State of the Map Europe 2024
 						</p>
 						<Link
@@ -18,7 +18,7 @@ export function Footer2024() {
 							OpenStreetMap Poland
 						</Link>
 					</div>
-					<div className="flex flex-col items-center justify-between gap-1 md:flex-row">
+					<div className="flex flex-row lg:flex-col items-center justify-between gap-1 md:flex-row">
 						<div className="flex flex-col">
 							<Link
 								className="text-black underline"

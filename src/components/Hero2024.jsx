@@ -51,30 +51,25 @@ function CalendarJuly2024({ className }) {
 export function Hero2024({ id }) {
 	return (
 		<div id={id} className="relative pb-4">
-			<Container className="relative flex flex-col">
-				<div className="flex flex-row">
-					<div className="basis-8/12 text-5xl text-orange font-bold font-rubik">
+			<Container className="relative flex flex-col lg:flex">
+				<div className="flex flex-col lg:flex-row">
+					<div className="lg:basis-8/12 text-5xl text-orange font-bold font-rubik">
 						State of the Map Europe 2024
 					</div>
-					<div className="basis-4/12 text-xl text-black font-rubik ml-4">
+					<div className="lg:basis-4/12 text-xl text-black font-rubik lg:ml-4">
 						Organized in cooperation with the board of State of the Map and
 						<Link href="https://openstreetmap.org.pl" className="underline p-1">
 							OpenStreetMap&nbsp;Poland
 						</Link>
 					</div>
 				</div>
-				<div className="flex flex-row mt-4">
-					<Image
-						src={LodzPiotrkowska}
-						alt="Łódź"
-						className="basis-8/12"
-						width="100"
-					/>
-					<CalendarJuly2024 className="basis-4/12 ml-4 bg-beige shadow-xl shadow-beige rounded-xl p-4" />
+				<div className="flex flex-col lg:flex-row my-4 lg:mb-0">
+					<Image src={LodzPiotrkowska} alt="Łódź" className="lg:basis-8/12" />
+					<CalendarJuly2024 className="lg:basis-4/12 my-2 lg:my-0 lg:ml-4 bg-beige shadow-xl shadow-beige rounded-xl p-4" />
 				</div>
-				<div className="flex flex-row py-4 text-3xl text-black font-rubik font-bold">
-					<div className="basis-8/12">Will take place in Łódź, Poland</div>
-					<div className="basis-4/12">18-21 July, 2024</div>
+				<div className="flex flex-col lg:flex-row py-4 text-3xl text-black font-rubik font-bold">
+					<div className="lg:basis-8/12">Will take place in Łódź, Poland</div>
+					<div className="lg:basis-4/12">18-21 July, 2024</div>
 				</div>
 			</Container>
 		</div>
