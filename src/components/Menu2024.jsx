@@ -25,9 +25,8 @@ function Button2024({ href, className, ...props }) {
 	);
 }
 
-export function Menu2024() {
+export function Menu2024({ activeItem }) {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-	const activeItem = "/index2024"; // TODO: get active item from props/router
 
 	return (
 		<>

@@ -14,7 +14,7 @@ export default function Page() {
 					content="State of the Map EU 2024 is the European conference of OpenStreetMap, organised this year by the OpenStreetMap Poland community."
 				/>
 			</Head>
-			<Menu2024 />
+			<Menu2024 activeItem="/accommodations2024" />
 			<main className="font-rubik">
 				<Accommodations2024 id="accommodations" />
 			</main>
