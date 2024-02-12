@@ -99,7 +99,7 @@ export function Accommodations2024({ id }) {
 	return (
 		<section id={id} aria-label="Accommodations" className="py-20 sm:py-32">
 			<Container className="relative">
-				<span className="text-orange text-5xl font-bold">Accomodation</span>
+				<span className="text-orange text-5xl font-bold">Accommodation</span>
 				<Header>How to get?</Header>
 				<p>
 					State of the Map Europe 2024 will take place in the ”Alchemium”
