@@ -273,6 +273,16 @@ li {
 .image-in-sidenote {
   height: 96px;
   object-fit: cover;
+  transition: all 50ms;
+}
+
+.image-in-sidenote:hover {
+  opacity: .75;
+}
+
+.image-in-sidenote:active {
+  opacity: .5;
+  filter: brightness(175%);
 }
 
 .days {
