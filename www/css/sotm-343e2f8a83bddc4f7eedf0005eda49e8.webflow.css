@@ -634,6 +634,10 @@ li {
     color: var(--orange);
   }
 
+  .day-link.hide:hover {
+    color: var(--black);
+  }
+
   .cta-banner {
     flex-direction: column;
     margin-right: 0;
