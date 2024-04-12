@@ -50,8 +50,9 @@ body {
 
 h1 {
   color: var(--red);
+  letter-spacing: -3px;
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   font-family: Rubik, sans-serif;
   font-size: 64px;
   font-weight: 700;
@@ -256,6 +257,10 @@ li {
 
 .text.in-grid {
   width: 100%;
+  margin-bottom: 0;
+}
+
+.text.last {
   margin-bottom: 0;
 }
 
@@ -515,9 +520,12 @@ li {
   line-height: 28px;
 }
 
+.heading-2 {
+  letter-spacing: -3px;
+}
+
 @media screen and (min-width: 1440px) {
   h1 {
-    margin-bottom: 24px;
     font-size: 80px;
     line-height: 72px;
   }
@@ -732,7 +740,6 @@ li {
   .section {
     width: 100%;
     max-width: 1680px;
-    margin-bottom: 160px;
     margin-left: 120px;
     margin-right: 120px;
   }
@@ -746,6 +753,10 @@ li {
     margin-left: 1200px;
   }
 
+  .images-holder.with-calendar {
+    margin-bottom: 0;
+  }
+
   .body {
     flex-direction: column;
     align-items: center;
@@ -755,6 +766,7 @@ li {
 
 @media screen and (max-width: 991px) {
   h1 {
+    letter-spacing: -2px;
     margin-bottom: 8px;
     font-size: 56px;
     line-height: 48px;
@@ -901,6 +913,10 @@ li {
 
   .heading {
     margin-bottom: 16px;
+  }
+
+  .heading-2 {
+    letter-spacing: -2px;
   }
 }
 
